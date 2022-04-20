@@ -8,9 +8,8 @@
 /**
  * struct print - struct for printer functions
  * @type_arg: identifier
- * @f: pointer to a printer functions
- *
- * Description: struct that stores pointers to a
+ * @f: pointer to printer functions
+ * Desc: struct that stores pointers to
  * printer functions.
  */
 typedef struct print
