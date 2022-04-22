@@ -1,1 +1,1 @@
-This is the readme for my project with David
+This is the readme for my project with KawuMusa
