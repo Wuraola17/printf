@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _printf - formatted output conversion and print data.
-* @format: input string.
-* Return: number of chars printed.
-*/
+ * _printf - formatted output conversion and print data.
+ * @format: input string.
+ * Return: number of chars printed.
+ */
 int _printf(const char *format, ...)
 {
 	unsigned int i = 0, len = 0, ibuf = 0;
@@ -48,3 +48,4 @@ int _printf(const char *format, ...)
 	print_buf(buffer, ibuf), free(buffer), va_end(arguments);
 	return (len);
 }
+
